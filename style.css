@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.room{
+	width: 100vw;
+	height: 100vh;
+	background-color: #efd7ee;
+	z-index: -6;
+	
+}
+.window{
+	width: 300px;
+	height: 300px;
+	background-image: url('window1.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -3%;
+	top: 6%;
+
+	
+}	
+	
+.table{
+	width: 400px;
+	height: 450px;
+	background-image: url('girlshadow.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -2%;
+	top: 30%;
+	 border-radius: 5%;
+	 z-index: 6;
+}
+.dog{
+	width: 331px;
+	height: 165px;
+	background-image: url('http://moziru.com/images/lying-down-clipart-resting-clipart-4.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 3%;
+	top: 74%;
+	z-index: 10;
+	padding: 10px;
+	box-sizing: border-box;
+	/*border: 3px solid black;*/
+}	
+
+.sofa{
+	width: 390px;
+	height: 250px;
+	background-image: url('http://downloadclipart.org/do-upload/clipart/2017-02/Sofa_png_clipart.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	right:30%;
+	top: 45%;
+	 
+}
+.corner{
+	height: 50vh;
+	position: absolute;
+	left: 25%;
+	border: 2px solid #000;	
+}
+.diagonal{
+	width: 368px;
+        height: 4px;
+        border-bottom: 3px solid #232323;
+        -webkit-transform:
+            translateY(60px)
+            translateX(-38px)
+            rotate(-20deg);
+        position: absolute;
+        top: 50%;
+        left: 2%;
+}
+
+.cupboard{
+    width: 280px;
+	height: 320px;
+	background-image: url('cupboardS.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	right:4%;
+	top: 40%;
+	opacity: 0.8;
+		
+}
+
+.tank{
+	width: 200px;
+	height: 130px;
+	background-color: white;
+	background-image: url('fish.gif');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	border: 10px solid skyblue;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	right:8%;
+	top: 22%;
+	opacity: 0.7;
+	box-shadow: 0px 4px 3px 3px #333;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+
+/*clock*/
+.hangingClock{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 45%;
+	top: -2%;
+
+}
+.clock{
+	padding: 25px;
+	width: 100%;
+	height: 100%;
+	border: 10px solid #111;
+	border-radius: 50%;
+	margin: 50px auto;
+	background-image: url('clock.jpg');
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 opacity: 0.8;
+
+}
+.circle{
+	width: 15px;
+	height: 15px;
+	background-color: #111;
+	position: absolute;
+	top: 47.5%;
+	left: 45%;
+	border-radius: 50%;
+	opacity: 0.9;
+}
+.clockface{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform: translateY(-5px);
+	opacity: 0.7;
+
+}
+.hand{
+	border-radius: 10px;
+	width:45%;
+	background: #000;
+	position: absolute;
+	top:50%;
+	left:3%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.05s;
+	transition-timing-function: ease-in;
+}
+.secondhand{
+	transition: all 0.05s;
+	transition-timing-function: ease-in;
+	border: 2px solid #59d9f9;
+}
+.hourhand{
+	height: 4px !important;
+	border: 3px solid #59d9f9;
+
+}
+.minutehand{
+	height: 2px !important; 
+	border: 2px solid #59d9f9;
+}
